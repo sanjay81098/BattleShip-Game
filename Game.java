@@ -50,7 +50,7 @@ public class Game {
 
     public static void main(String[] args) {
         Game game = new Game();
-        game.initGame(4);
+        game.initGame(6);
         game.addShip("SH1", 2, 1, 3, 4, 4);
         game.startGame();
     }
